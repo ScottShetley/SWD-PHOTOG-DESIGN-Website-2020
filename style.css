@@ -573,81 +573,82 @@ p {
         text-align: left;
     }
 /* End About Section */
+/* contact Section */
 #contact .contact {
-    flex-direction: column;
-    max-width: 1200px;
-    margin: 0 auto;
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 #contact .contact-items {
-    width: 400px;
+	width: 400px;
 }
 #contact .contact-item {
-    width: 80%;
-    padding: 20px;
-    text-align: center;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-shadow: 0px 0px 18px 0 #0000002c;
-    transition: .3s ease box-shadow;
+	width: 80%;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: .3s ease box-shadow;
 }
 #contact .contact-item:hover {
-    box-shadow: 0px 0px 5px 0 #0000002c;
+	box-shadow: 0px 0px 5px 0 #0000002c;
 }
 #contact .icon {
-    width: 70px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+	width: 70px;
+	margin: 0 auto;
+	margin-bottom: 10px;
 }
 #contact .contact-info h1 {
-    font-size: 2.5rem;
-    font-weight: 500;
-    margin-bottom: 5px;
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
 }
 #contact .contact-info h2 {
-    font-size: 1.3rem;
-    line-height: 2rem;
-    font-weight: 500;
+	font-size: 1.3rem;
+	line-height: 2rem;
+	font-weight: 500;
 }
 /*End contact Section */
 
 /* contact  */
-    #contact .contact {
-        flex-direction: column;
-        padding: 100px 0;
-        align-items: center;
-        justify-content: center;
-        min-width: 20vh;
-    }
-    #contact .contact-items {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin: 0;
-    }
-    #contact .contact-item {
-        width: 30%;
-        margin: 0;
-        flex-direction: row;
-    }
-    #contact .contact-item .icon {
-        height: 100px;
-        width: 100px;
-    }
-    #contact .contact-item .icon img {
-        object-fit: contain;
-    }
-    #contact .contact-item .contact-info {
-        width: 100%;
-        text-align: left;
-        padding-left: 20px;
-    }
-/* contact Section */
+	#contact .contact {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+	#contact .contact-items {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contact .contact-item {
+		width: 30%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contact .contact-item .icon {
+		height: 100px;
+		width: 100px;
+	}
+	#contact .contact-item .icon img {
+		object-fit: contain;
+	}
+	#contact .contact-item .contact-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;
+	}
+	/* End contact  */
 
 /*End contact Section */
 
@@ -770,27 +771,72 @@ p {
 	/* End Project */
 
 /* Photography */
-	
-
-	
-	/* End Photography */
+/* End Photography */
 
 /* Design */
-	
-	
-	/* End Design */
+/* End Design */
 
 
 	/* About */
-	
+	#about .about {
+		flex-direction: row;
+	}
+	#about .col-left {
+		width: 600px;
+		height: 400px;
+		padding-left: 60px;
+	}
+	#about .about .col-left .about-img::after {
+		left: -45px;
+		top: 34px;
+		height: 98%;
+		width: 98%;
+		border: 10px solid crimson;
+	}
+	#about .col-right {
+		text-align: left;
+		padding: 30px;
+	}
+	#about .col-right h1 {
+		text-align: left;
+	}
 	/* End About */
 
 	/* contact  */
-	
+	#contact .contact {
+		flex-direction: column;
+		padding: 100px 0;
+		align-items: center;
+		justify-content: center;
+		min-width: 20vh;
+	}
+	#contact .contact-items {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0;
+	}
+	#contact .contact-item {
+		width: 30%;
+		margin: 0;
+		flex-direction: row;
+	}
+	#contact .contact-item .icon {
+		height: 100px;
+		width: 100px;
+	}
+	#contact .contact-item .icon img {
+		object-fit: contain;
+	}
+	#contact .contact-item .contact-info {
+		width: 100%;
+		text-align: left;
+		padding-left: 20px;
 	/* End contact  */
-}
+	}
 /* End Media Query For Tablet */
-
+}
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
 	/* header */
@@ -819,5 +865,5 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
-}
+
 /* End  Media Query For Desktop */
